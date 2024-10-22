@@ -2849,9 +2849,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Prisco\\Platzy\\projectef\\projectef.csproj",
-      "projectName": "projectef",
-      "projectPath": "C:\\Prisco\\Platzy\\projectef\\projectef.csproj",
+      "projectUniqueName": "C:\\Prisco\\Platzy\\projectef\\proyectoef.csproj",
+      "projectName": "proyectoef",
+      "projectPath": "C:\\Prisco\\Platzy\\projectef\\proyectoef.csproj",
       "packagesPath": "C:\\Users\\prisc\\.nuget\\packages\\",
       "outputPath": "C:\\Prisco\\Platzy\\projectef\\obj\\",
       "projectStyle": "PackageReference",
