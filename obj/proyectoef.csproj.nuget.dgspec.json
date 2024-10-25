@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Azure.ResourceManager.Sql": {
+              "target": "Package",
+              "version": "[1.3.0-beta.9, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.0-rc.2.24474.1, )"

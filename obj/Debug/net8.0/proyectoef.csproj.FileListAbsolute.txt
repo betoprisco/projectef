@@ -81,3 +81,5 @@ C:\Prisco\Platzy\projectef\obj\Debug\net8.0\refint\proyectoef.dll
 C:\Prisco\Platzy\projectef\obj\Debug\net8.0\proyectoef.pdb
 C:\Prisco\Platzy\projectef\obj\Debug\net8.0\proyectoef.genruntimeconfig.cache
 C:\Prisco\Platzy\projectef\obj\Debug\net8.0\ref\proyectoef.dll
+C:\Prisco\Platzy\projectef\bin\Debug\net8.0\Azure.ResourceManager.dll
+C:\Prisco\Platzy\projectef\bin\Debug\net8.0\Azure.ResourceManager.Sql.dll

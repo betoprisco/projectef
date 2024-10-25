@@ -31,6 +31,5 @@ public class TareasContext : DbContext
             tarea.Property(t => t.FechaCreacion).HasDefaultValueSql("GETDATE()");
             tarea.Ignore(t => t.Resumen);
         });
-
     }
 }
