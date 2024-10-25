@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using proyectoef;
 
@@ -11,9 +12,11 @@ using proyectoef;
 namespace proyectoef.Migrations
 {
     [DbContext(typeof(TareasContext))]
-    partial class TareasContextModelSnapshot : ModelSnapshot
+    [Migration("20241025195342_InitialData")]
+    partial class InitialData
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -58,18 +61,6 @@ namespace proyectoef.Migrations
                             CategoriaId = new Guid("28b26fa3-8035-469b-8d6f-603a6130b579"),
                             Nombre = "Actividades Personales",
                             Peso = 50
-                        },
-                        new
-                        {
-                            CategoriaId = new Guid("28b26fa3-8035-469b-8d6f-603a6130b580"),
-                            Nombre = "Actividades Laborales",
-                            Peso = 30
-                        },
-                        new
-                        {
-                            CategoriaId = new Guid("28b26fa3-8035-469b-8d6f-603a6130b581"),
-                            Nombre = "Actividades de Estudio",
-                            Peso = 40
                         });
                 });
 
@@ -110,7 +101,7 @@ namespace proyectoef.Migrations
                         {
                             TareaId = new Guid("3843931d-0caa-4c85-b866-cf943b645bab"),
                             CategoriaId = new Guid("28b26fa3-8035-469b-8d6f-603a6130b578"),
-                            FechaCreacion = new DateTime(2024, 10, 25, 15, 12, 10, 318, DateTimeKind.Local).AddTicks(3320),
+                            FechaCreacion = new DateTime(2024, 10, 25, 14, 53, 41, 955, DateTimeKind.Local).AddTicks(2752),
                             PrioridadTarea = "Media",
                             Titulo = "Pago de servicios públicos"
                         },
@@ -118,25 +109,9 @@ namespace proyectoef.Migrations
                         {
                             TareaId = new Guid("3843931d-0caa-4c85-b866-cf943b645bac"),
                             CategoriaId = new Guid("28b26fa3-8035-469b-8d6f-603a6130b579"),
-                            FechaCreacion = new DateTime(2024, 10, 25, 15, 12, 10, 319, DateTimeKind.Local).AddTicks(7054),
+                            FechaCreacion = new DateTime(2024, 10, 25, 14, 53, 41, 956, DateTimeKind.Local).AddTicks(7279),
                             PrioridadTarea = "Baja",
                             Titulo = "Terminar de ver película en Apple TV+"
-                        },
-                        new
-                        {
-                            TareaId = new Guid("3843931d-0caa-4c85-b866-cf943b645bad"),
-                            CategoriaId = new Guid("28b26fa3-8035-469b-8d6f-603a6130b580"),
-                            FechaCreacion = new DateTime(2024, 10, 25, 15, 12, 10, 319, DateTimeKind.Local).AddTicks(7063),
-                            PrioridadTarea = "Alta",
-                            Titulo = "Revisar correos electrónicos"
-                        },
-                        new
-                        {
-                            TareaId = new Guid("3843931d-0caa-4c85-b866-cf943b645bae"),
-                            CategoriaId = new Guid("28b26fa3-8035-469b-8d6f-603a6130b581"),
-                            FechaCreacion = new DateTime(2024, 10, 25, 15, 12, 10, 319, DateTimeKind.Local).AddTicks(7066),
-                            PrioridadTarea = "Media",
-                            Titulo = "Estudiar para el examen de matemáticas"
                         });
                 });
 
